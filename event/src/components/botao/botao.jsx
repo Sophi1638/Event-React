@@ -1,8 +1,8 @@
-import "./botao.jsx"
+import "./Botao.css"
 
 const Botao = (props) => {
     return(
-        <button className="botao">{props.nomeBotao}</button>
+        <button className="botao">{props.nomeDoBotao}</button>
     )
 }
 
